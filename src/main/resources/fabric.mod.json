@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel_sentry_void",
+  "version": "${mod_version}",
+  "name": "Marvel Sentry + Void",
+  "description": "A Minecraft mod featuring the Marvel characters Sentry and Void.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.marvelsentryvoid.MarvelSentryVoidMod"
+    ]
+  },
+  "mixins": [
+    "marvelsentryvoid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1"
+  }
+}
